@@ -7,8 +7,8 @@ int main(int argc, char** argv) {
     do {
         printf("\n \t Digite seu peso (em kg): ");
         scanf("%f", &peso);
-        if (peso < 30 || peso > 200) {
-            printf("\n \t Peso inválido. Por favor, digite um valor entre 30 kg e 200 kg.\n");
+        if (peso < 30 || peso > 250) {
+            printf("\n \t Peso invï¿½lido. Por favor, digite um valor entre 30 kg e 200 kg.\n");
         }
     } 
 	while (peso < 30 || peso > 200);
@@ -17,7 +17,7 @@ int main(int argc, char** argv) {
         printf("\n \t Digite sua altura (em metros): ");
         scanf("%f", &altura);
         if (altura < 1.2 || altura > 2.5) {
-            printf("\n \t Altura inválida. Por favor, digite um valor entre 1,2 m e 2,5 m.\n");
+            printf("\n \t Altura invï¿½lida. Por favor, digite um valor entre 1,2 m e 2,5 m.\n");
         }
     } 
 	while (altura < 1.2 || altura > 2.5);
@@ -42,7 +42,7 @@ int main(int argc, char** argv) {
         printf ("\n\t Voce este em obesidade classe II");
     }
     else {
-        printf ("\n\t Você está em obesidade classe III");
+        printf ("\n\t Vocï¿½ estï¿½ em obesidade classe III");
     }
 
     return 0;
